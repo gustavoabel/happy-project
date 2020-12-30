@@ -1,3 +1,3 @@
 # happy
 
-<img src= ".github\happy-project.png" />
+<img src= ".github\projeto-happy.png" />
