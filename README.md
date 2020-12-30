@@ -1,3 +1,3 @@
 # happy
 
-<img src= "C:\Users\Gustavo Abel\Documents\GitHub\happy-project\.github\happy-project.png" />
+<img src= ".github\happy-project.png" />
