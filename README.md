@@ -4,7 +4,7 @@
 
 <div align="center">
   <h2 align="center">Desktop</h2>
-  <img src=".github/deks.svg" alt="Exemplo da interface no desktop" style="width: 100%;">
+  <img src=".github/projeto-happy.png" alt="Exemplo da interface no desktop" style="width: 100%;">
 </div>
 
 ## :gear: Requisítos
