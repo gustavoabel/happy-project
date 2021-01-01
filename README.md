@@ -55,7 +55,7 @@ projeto
 
 ## :arrow_down: Instalação
 
-- `git clone https://github.com/roger3g/happy.git`;
+- `git clone https://github.com/gustavoabell/happy-project`;
 - `cd happy`;
 - `npm install`;
 - `npm run dev`.
