@@ -1,74 +1,150 @@
 <p align="center">
-  <img alt="License" src="https://img.shields.io/static/v1?label=license&message=MIT&color=5568f9&labelColor=111116">
+  <img src="https://github.com/gabriel-nt/Happy/blob/master/web/src/images/logo-git.png" alt="logo" height="65"/>
 </p>
 
-<div align="center">
-  <h2 align="center">Desktop</h2>
-  <img src=".github/projeto-happy.png" alt="Exemplo da interface no desktop" style="width: 100%;">
-</div>
+<h1 align="center">
+    🚀 NLW 3
+</h1>
 
-## :gear: Requisítos
+<p align="center">Aplicação Next Level Week 3ª Edição</p>
 
-- [X] [Node.js](https://nodejs.org/en/) ( Obrigatório )
-- [X] [GIT](https://git-scm.com/) ( Opcional )
+<p align="center">
+  <img src="https://img.shields.io/static/v1?label=node&message=12.13.1&color=339933&logo=node.js" />
+  <img src="https://img.shields.io/static/v1?label=react&message=16.13.1&color=61DAFB&logo=react" />
+  <img src="https://img.shields.io/static/v1?label=react%20native&message=39.0.1&color=0088CC&logo=reactos" />
+  <img src="https://img.shields.io/badge/license-MIT-success"/>
+</p>
 
-## :rocket: Tecnologias
+<p align="center">
+  <a href="#-features">Features</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#-pré-requisitos">Pré-Requisitos</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#-tecnologias">Tecnologias</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#-licença">Lincença</a>
+</p>
 
-- [x] [Node.js](https://nodejs.org/en/)
-- [x] [Express.js](https://expressjs.com/)
-- [x] [Nodemon](https://nodemon.io/)
-- [x] [Dotenv](https://www.npmjs.com/package/dotenv)
-- [x] [Handlebars](https://handlebarsjs.com/)
-- [x] [SQLite](https://www.sqlite.org/index.html)
+<h3 align="center"> 
+🚧  Finalizado  🚧
+</h3>
 
-## :computer: Projeto
+### 📎 Features 
 
-Projeto desenvolvido na #NLW3
+- [x] Criação de Casa de Acolhimento
+- [x] Uploads de Imagens
+- [x] Listagem de Casas de Acolhimento
+- [x] Detalhes da Casa de Acolhimento
+- [x] Atualização do cadastro da Casa de Acolhimento
+- [x] Atualização das Imagens
+- [x] Visualização geográfica da Instituição de Acolhimento
 
-## :bookmark_tabs: Ideias de implementação
+### 💻 Projeto
 
-- [ ] Refatoração
-- [ ] Correção de bugs
-- [ ] Validação de formulário personalizada
+O Happy é uma aplicação que conecta pessoas à casas de acolhimento institucional para fazer o dia de muitas crianças mais feliz. Projeto desenvolvido durante a semana do Next Level Week 3ª Edição. 
 
-## :open_file_folder: Estrutura de diretórios
+### ✅ Demonstração
+<img src="https://github.com/gabriel-nt/Happy/blob/master/web/src/images/dashboard.PNG" />
 
+### ⚙ Pré-requisitos
+
+Antes de começar, você vai precisar ter instalado em sua máquina as seguintes ferramentas:
+[Git](https://git-scm.com), [Node.js](https://nodejs.org/en/) e/ou [Yarn](https://https://yarnpkg.com/) 
+Além disto é bom ter um editor para trabalhar com o código como [VSCode](https://code.visualstudio.com/)
+
+
+### 📙 Rodando o Backend
+
+```bash
+# Clone este repositório
+$ git clone https://github.com/gabriel-nt/Happy
+
+# Navegue para a pasta
+$ cd server
+
+# Execute as migrations
+$ yarn typeorm migration:run
+
+# Instale as dependências
+$ yarn
+
+# Execute a aplicação
+$ yarn dev
 ```
-projeto
-  |-- .github 
-  |-- public
-    |-- asests
-    |-- scripts
-    |-- styles
-  |-- src
-    |-- config
-    |-- database
-    |-- views
-    |-- pages.js
-    |-- server.js
-  |-- .env
-  |-- .gitignore
-  |-- LICENSE.md
-  |-- package.json
-  |-- README.md
+
+### 🛢 Insomnia
+<a href="https://insomnia.rest/run/?label=Happy&uri=https%3A%2F%2Fgithub.com%2Fgabriel-nt%2FHappy%2Fblob%2Fmaster%2Fserver%2Fuploads%2Fapi.json" target="_blank"><img src="https://insomnia.rest/images/run.svg" alt="Run in Insomnia"></a>
+
+### 📗 Rodando o Frontend (web)
+
+```bash
+# Navegue para a pasta
+$ cd web
+
+# Instale as dependências
+$ yarn
+
+# Execute a aplicação
+$ yarn start
 ```
 
-## :arrow_down: Instalação
+### 📘 Rodando o Mobile
 
-- `git clone https://github.com/gustavoabell/happy-project`;
-- `cd happy`;
-- `npm install`;
-- `npm run dev`.
+```bash
+# Navegue para a pasta
+$ cd mobile
 
-## :thinking: Como contribuir
+# Instale as dependências
+$ yarn
 
-- Faça um fork desse repositório;
-- Cria uma branch com a sua feature: `git checkout -b minha-feature`;
-- Faça commit das suas alterações: `git commit -m 'feat: Minha nova feature'`;
-- Faça push para a sua branch: `git push origin minha-feature`.
+# Execute a aplicação
+$ yarn start
+```
 
-Depois que o merge da sua pull request for feito, você pode deletar a sua branch.
+### 🚀 Tecnologias
 
-## :memo: Licença
+Esse projeto foi desenvolvido com as seguintes tecnologias:
 
-Esse projeto está sob a licença MIT. Veja o arquivo [LICENSE](LICENSE.md) para mais detalhes.
+- ReactJS
+- React Native
+- NodeJS
+- Typescript
+- SqLite
+- Expo
+
+### 📕 Bibliotecas
+
+Esse projeto foi utilizou das seguintes lib:
+
+- TypeORM
+- Axios
+- Express
+- react-native-maps
+- react-icons
+- multer
+- yup
+- react-leaflet
+- leaflet
+- styled-components
+
+### 📙 Arquitetura do Projeto
+
+Para uma melhorar estrutura de projetos utilizamos das seguintes fundamentos:
+
+- DDD
+- SOLID
+
+###  📘 Padrão de Código
+
+Para padronizar a escrita do código, utilizamos as seguinte ferramentas:
+
+- Eslint
+- Prettier
+- EditorConfig
+
+
+### 📝 Licença
+
+Esse projeto está sob a licença MIT.
+
+<hr/>
+
+Feito por Gustavo Abel.
+
